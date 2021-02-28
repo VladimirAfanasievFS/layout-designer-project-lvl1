@@ -14,6 +14,7 @@
 
 @font-face {
   font-weight: 400;
+
   /* Соответствует значению normal */
   font-family: 'Neucha';
   src: url('../assets/fonts/Neucha/Neucha-Regular.ttf');
@@ -21,6 +22,7 @@
 
 @font-face {
   font-weight: 400;
+
   /* Соответствует значению normal */
   font-family: 'OpenSans';
   src: url('../assets/fonts/Open_Sans/OpenSans-Regular.ttf');
@@ -28,6 +30,7 @@
 
 @font-face {
   font-weight: 700;
+
   /* Соответствует значению normal */
   font-family: 'OpenSans';
   src: url('../assets/fonts/Open_Sans/OpenSans-Bold.ttf');
@@ -35,27 +38,44 @@
 
 /* Указываем box sizing */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 /* Убираем внутренние отступы */
 
-ul[class], ol[class] {
+ul[class],
+ol[class] {
   padding: 0;
 }
 
 /* Убираем внешние отступы */
 
-body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
   margin: 0;
 }
 
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class */
 
-ul[class], ol[class] {
+/* ul[class],
+ol[class] {
   list-style: none;
-}
+} */
 
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 
@@ -70,11 +90,11 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5; */
-  background-color: #f5f4f0;
   color: #2a2626;
   font-size: 16px;
   font-family: 'OpenSans', sans-serif;
   line-height: 1.6em;
+  background-color: #f5f4f0;
 }
 
 /* КОНЕЦ СБРОС СТИЛЕЙ */
@@ -108,8 +128,8 @@ body {
 }
 
 .btn:hover {
-  background-color: #EA7600;
-  border-color: #EA7600;
+  background-color: #ea7600;
+  border-color: #ea7600;
   cursor: pointer;
 }
 
@@ -175,11 +195,11 @@ body {
 
 .background::before {
   position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
   background-image: url('../assets/background.png');
   background-repeat: no-repeat;
   background-size: cover;
