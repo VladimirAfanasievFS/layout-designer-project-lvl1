@@ -183,6 +183,12 @@ body {
   line-height: 120%;
 }
 
+h5 {
+  padding: 5px;
+  font-size: 14px;
+  line-height: 120%;
+}
+
 .relative {
   position: relative;
 }
@@ -207,6 +213,14 @@ body {
   content: '';
 }
 
+.text-semi-white {
+  color: var(--semi-white);
+}
+
+.text-semi-dark {
+  color: var(--semi-dark);
+}
+
 .text-dark {
   color: var(--dark);
 }
@@ -217,6 +231,10 @@ body {
 
 .text-white {
   color: var(--white);
+}
+
+.ml-30 {
+  margin-left: 30px;
 }
 
 .mt-40 {
@@ -241,6 +259,10 @@ body {
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mb-30 {
@@ -274,6 +296,10 @@ body {
   background-color: var(--base-dark);
 }
 
+.bg-semi-brown {
+  background-color: var(--brown);
+}
+
 .text-center {
   text-align: center;
 }
@@ -288,6 +314,10 @@ body {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
 }
 
 .justify-content-beetwen {
