@@ -213,6 +213,20 @@ h5 {
   content: '';
 }
 
+.background2::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/background3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  content: '';
+}
+
 .text-semi-white {
   color: var(--semi-white);
 }
