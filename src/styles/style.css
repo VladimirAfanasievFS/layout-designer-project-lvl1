@@ -1,1 +1,285 @@
 /** CSS STYLE **/
+
+:root {
+  --white: #fff;
+  --semi-white: #d7ccc0;
+  --light: #f5f4f0;
+  --base: #fe8a02;
+  --base-dark: #42413c;
+  --dark: #2a2626;
+  --semi-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
+
+@font-face {
+  font-weight: 400;
+  /* Соответствует значению normal */
+  font-family: 'Neucha';
+  src: url('../assets/fonts/Neucha/Neucha-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 400;
+  /* Соответствует значению normal */
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-weight: 700;
+  /* Соответствует значению normal */
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/Open_Sans/OpenSans-Bold.ttf');
+}
+
+/* Указываем box sizing */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+
+ul[class], ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+
+ul[class], ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+
+body {
+  /* min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5; */
+  background-color: #f5f4f0;
+  color: #2a2626;
+  font-size: 16px;
+  font-family: 'OpenSans', sans-serif;
+  line-height: 1.6em;
+}
+
+/* КОНЕЦ СБРОС СТИЛЕЙ */
+
+.header {
+  overflow: hidden;
+}
+
+.header-img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  z-index: -100;
+}
+
+.pb-185 {
+  padding-bottom: 185px;
+}
+
+.column-2 {
+  column-count: 2;
+}
+
+.column-gap-30 {
+  column-gap: 30px;
+}
+
+.btn {
+  padding: 11px 24px;
+  border: 1px;
+}
+
+.btn:hover {
+  background-color: #EA7600;
+  border-color: #EA7600;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-orange {
+  color: var(--white);
+  background-color: var(--base);
+  border-color: var(--base);
+}
+
+.column-break-avoid {
+  break-inside: avoid;
+}
+
+.h1 {
+  font-size: 72px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.h1-small {
+  font-size: 64px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.h2 {
+  font-size: 60px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.h2-small {
+  font-size: 52px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.h3 {
+  font-size: 34px;
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+}
+
+.h4 {
+  font-size: 24px;
+  font-family: 'Neucha', cursive;
+  line-height: 120%;
+}
+
+.relative {
+  position: relative;
+}
+
+.section {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.background::before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('../assets/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+  content: '';
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-base {
+  color: var(--base);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-116 {
+  margin-top: 116px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.pb-515 {
+  padding-bottom: 515px;
+}
+
+.mb-negative-200 {
+  margin-bottom: -200px;
+}
+
+.video {
+  position: absolute;
+  bottom: -100px;
+  z-index: 100;
+  display: block;
+  margin: 0 auto;
+  transform: translate(15%, 0);
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-brown {
+  background-color: var(--base-dark);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-350 {
+  width: 350px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-beetwen {
+  justify-content: space-between;
+}
+
+.card {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.card:hover p,
+.card:hover {
+  color: var(--white);
+  background-color: var(--base);
+}
