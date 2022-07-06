@@ -277,6 +277,10 @@ h5 {
   color: var(--dark);
 }
 
+.text-brown {
+  color: var(--brown);
+}
+
 .text-base {
   color: var(--base);
 }
