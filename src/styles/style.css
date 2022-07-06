@@ -1,5 +1,3 @@
-/** CSS STYLE **/
-
 :root {
   --white: #fff;
   --semi-white: #d7ccc0;
@@ -15,28 +13,23 @@
 @font-face {
   font-weight: 400;
 
-  /* Соответствует значению normal */
-  font-family: "Neucha";
-  src: url('../assets/fonts/Neucha/Neucha-Regular.ttf');
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-weight: 400;
 
-  /* Соответствует значению normal */
-  font-family: "OpenSans";
-  src: url('../assets/fonts/Open_Sans/OpenSans-Regular.ttf');
+  font-family: OpenSans;
+  src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-weight: 700;
 
-  /* Соответствует значению normal */
-  font-family: "OpenSans";
-  src: url('../assets/fonts/Open_Sans/OpenSans-Bold.ttf');
+  font-family: OpenSans;
+  src: url("../assets/fonts/Open_Sans/OpenSans-Bold.ttf");
 }
-
-/* Указываем box sizing */
 
 *,
 *::before,
@@ -44,14 +37,10 @@
   box-sizing: border-box;
 }
 
-/* Убираем внутренние отступы */
-
 ul[class],
 ol[class] {
   padding: 0;
 }
-
-/* Убираем внешние отступы */
 
 body,
 h1,
@@ -70,34 +59,18 @@ dd {
   margin: 0;
 }
 
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class */
-
-/* ul[class],
-ol[class] {
-  list-style: none;
-} */
-
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Выставляем основные настройки по-умолчанию для body */
-
 body {
-  /* min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5; */
   color: #2a2626;
   font-size: 16px;
-  font-family: "OpenSans", sans-serif;
+  font-family: OpenSans, sans-serif;
   line-height: 1.6em;
+
   background-color: #f5f4f0;
 }
-
-/* КОНЕЦ СБРОС СТИЛЕЙ */
 
 .header {
   overflow: hidden;
@@ -124,6 +97,7 @@ body {
 
 .btn {
   padding: 11px 24px;
+
   border: 1px;
 }
 
@@ -139,6 +113,7 @@ body {
 
 .btn-orange {
   color: var(--white);
+
   background-color: var(--base);
   border-color: var(--base);
 }
@@ -149,44 +124,44 @@ body {
 
 .h1 {
   font-size: 72px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
 .h1-small {
   font-size: 64px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
 .h2 {
   font-size: 60px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
 .h2-small {
   font-size: 52px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
 .h3 {
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
 .h4 {
   font-size: 24px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 120%;
 }
 
 h2 {
   color: var(--base);
   font-size: 60px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
@@ -197,6 +172,7 @@ h2 {
 
 h5 {
   padding: 5px;
+
   font-size: 14px;
   line-height: 120%;
 }
@@ -230,6 +206,7 @@ h5 {
   margin-top: 8px;
   padding: 0;
   padding-left: 15px;
+
   border: 0;
 }
 
@@ -238,6 +215,7 @@ h5 {
   align-items: center;
   width: 70px;
   height: 50px;
+
   background-color: var(--primary);
   border: 0;
 }
@@ -256,28 +234,34 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
+
   display: block;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/background.png');
+
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 90%;
-  content: '';
+  opacity: 0.9;
+
+  content: "";
 }
 
 .background2::before {
   position: absolute;
   top: 0;
   left: 0;
+
   display: block;
   width: 100%;
   height: 100%;
-  background-image: url('../assets/background3.png');
+
+  background-image: url("../assets/background3.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
-  content: '';
+
+  content: "";
 }
 
 .text-semi-white {
@@ -357,14 +341,16 @@ h5 {
 }
 
 .img-shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
 
 .video {
   position: relative;
   z-index: 100;
+
   margin-bottom: -200px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
 
 .bg-white {
@@ -407,7 +393,7 @@ h5 {
   vertical-align: middle;
 }
 
-.justify-content-beetwen {
+.justify-content-between {
   justify-content: space-between;
 }
 
@@ -423,6 +409,7 @@ h5 {
 .card:hover p,
 .card:hover {
   color: var(--white);
+
   background-color: var(--base);
 }
 
