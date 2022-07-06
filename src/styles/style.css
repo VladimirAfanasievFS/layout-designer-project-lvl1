@@ -16,7 +16,7 @@
   font-weight: 400;
 
   /* Соответствует значению normal */
-  font-family: 'Neucha';
+  font-family: "Neucha";
   src: url('../assets/fonts/Neucha/Neucha-Regular.ttf');
 }
 
@@ -24,7 +24,7 @@
   font-weight: 400;
 
   /* Соответствует значению normal */
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   src: url('../assets/fonts/Open_Sans/OpenSans-Regular.ttf');
 }
 
@@ -32,7 +32,7 @@
   font-weight: 700;
 
   /* Соответствует значению normal */
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   src: url('../assets/fonts/Open_Sans/OpenSans-Bold.ttf');
 }
 
@@ -92,7 +92,7 @@ body {
   line-height: 1.5; */
   color: #2a2626;
   font-size: 16px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   line-height: 1.6em;
   background-color: #f5f4f0;
 }
@@ -149,44 +149,44 @@ body {
 
 .h1 {
   font-size: 72px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
 .h1-small {
   font-size: 64px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
 .h2 {
   font-size: 60px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
 .h2-small {
   font-size: 52px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
 .h3 {
   font-size: 34px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
 .h4 {
   font-size: 24px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 120%;
 }
 
 h2 {
   color: var(--base);
   font-size: 60px;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
@@ -276,7 +276,7 @@ h5 {
   background-image: url('../assets/background3.png');
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 90%;
+  opacity: 0.9;
   content: '';
 }
 
@@ -357,14 +357,14 @@ h5 {
 }
 
 .img-shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .video {
   position: relative;
   z-index: 100;
   margin-bottom: -200px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .bg-white {
