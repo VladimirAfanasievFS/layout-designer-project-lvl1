@@ -267,6 +267,10 @@ h5 {
   content: "";
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 .text-semi-white {
   color: var(--semi-white);
 }
