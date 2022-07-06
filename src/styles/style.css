@@ -68,7 +68,8 @@ body {
   font-size: 16px;
   font-family: OpenSans, sans-serif;
   line-height: 1.6em;
-
+  overflow-x: hidden;
+  
   background-color: #f5f4f0;
 }
 
