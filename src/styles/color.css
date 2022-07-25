@@ -1,0 +1,39 @@
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-brown {
+  background-color: var(--base-dark);
+}
+
+.bg-semi-brown {
+  background-color: var(--brown);
+}
+
+.text-semi-white {
+  color: var(--semi-white);
+}
+
+.text-semi-dark {
+  color: var(--semi-dark);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-brown {
+  color: var(--brown);
+}
+
+.text-base {
+  color: var(--base);
+}
+
+.text-white {
+  color: var(--white);
+}

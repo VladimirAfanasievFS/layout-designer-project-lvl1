@@ -1,0 +1,157 @@
+.text-center {
+  text-align: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.width-350 {
+  width: 350px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: space-center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.pb-185 {
+  padding-bottom: 185px;
+}
+
+.column-2 {
+  column-count: 2;
+}
+
+.column-gap-30 {
+  column-gap: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.mt-22 {
+  margin-top: 22px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-76 {
+  margin-top: 76px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.p-55 {
+  padding: 55px;
+}
+
+.mb-negative-200 {
+  margin-bottom: -200px;
+}
+
+.relative {
+  position: relative;
+}
+
+.column-break-avoid {
+  break-inside: avoid;
+}
+
+.h1 {
+  font-size: 72px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+.h1-small {
+  font-size: 64px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+.h2 {
+  font-size: 60px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+.h2-small {
+  font-size: 52px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+.h3 {
+  font-size: 34px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
+.h4 {
+  font-size: 24px;
+  font-family: Neucha, cursive;
+  line-height: 120%;
+}
+
+.h4-small {
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.h6-small {
+  font-size: 12px;
+  line-height: 120%;
+}

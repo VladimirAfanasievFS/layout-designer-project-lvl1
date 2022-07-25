@@ -1,0 +1,22 @@
+.btn {
+  padding: 11px 24px;
+
+  border: 1px;
+}
+
+.btn:hover {
+  background-color: #ea7600;
+  border-color: #ea7600;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-orange {
+  color: var(--white);
+
+  background-color: var(--base);
+  border-color: var(--base);
+}
