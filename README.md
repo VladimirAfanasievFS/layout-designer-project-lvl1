@@ -1,7 +1,7 @@
 
 # HTML/CSS layout project
 
-## <a href="cogert-ewww.surge.sh">Демо версия приложения</a>
+## <a href="www.cogert-ewww.surge.sh">Демо версия приложения</a>
 
 ## Setup
 
