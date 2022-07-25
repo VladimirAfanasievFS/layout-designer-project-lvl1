@@ -1,5 +1,5 @@
 
-# HTML/CSS Boilerplate
+# HTML/CSS layout project
 
 ## Setup
 
