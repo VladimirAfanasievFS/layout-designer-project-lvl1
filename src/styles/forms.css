@@ -62,19 +62,12 @@
   width: 100%;
   height: 100%;
 
+  background-image: url("../assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
 
   content: "";
-}
-
-.background-img::before {
-  background-image: url("../assets/background.png");
-}
-
-.background-img3::before {
-  background-image: url("../assets/background3.png");
 }
 
 .img-shadow {
