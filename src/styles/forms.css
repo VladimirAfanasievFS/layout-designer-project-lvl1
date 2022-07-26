@@ -70,6 +70,11 @@
   content: "";
 }
 
+.background-small::before {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 .img-shadow {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
